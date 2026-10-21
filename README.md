@@ -2,10 +2,10 @@
 Aplicación de escritorio desarrollada en **C++** utilizando **Qt Widgets** para la administración integral de una pequeña pulpería.
 
 ## 👥 Integrantes del Equipo
-* Integrante 1 - [Perfil de GitHub](enlace) - Módulo: Productos e inventario.
-* Integrante 2 - [Perfil de GitHub](enlace) - Módulo: Ventas y cobro.
-* Integrante 3 - [Perfil de GitHub](enlace) - Módulo: Comprobantes e historial.
-* Integrante 4 - [Perfil de GitHub](enlace) - Módulo: Usuarios y permisos.
+* Integrante 1 - [Moises] (enlace) - Módulo: Productos e inventario.
+* Integrante 2 - [Alison] (enlace) - Módulo: Ventas y cobro.
+* Integrante 3 - [andresbolivarj] (https://github.com/andresbolivarj) - Módulo: Comprobantes e historial.
+* Integrante 4 - [Adriel] (enlace) - Módulo: Usuarios y permisos.
 
 ---
 
