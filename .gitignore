@@ -1,0 +1,169 @@
+# ============================================================================
+# Proyecto Final: La Pulpe — .gitignore
+# C++ / Qt Widgets / Visual Studio / CMake
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Sistema operativo
+# ----------------------------------------------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ----------------------------------------------------------------------------
+# Visual Studio
+# ----------------------------------------------------------------------------
+.vs/
+.vscode/
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.cache
+*.obj
+*.ipch
+*.aps
+*.iobj
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+*.lastbuildstate
+*.tlog
+
+# ----------------------------------------------------------------------------
+# Compiladores / binarios / librerías
+# ----------------------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Ll]ib/
+[Ll]ogs/
+[Ii]nclude/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+ARM/
+*.dll
+*.exe
+*.out
+*.app
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.manifest
+*.res
+*.idb
+*.gcda
+*.gcno
+*.gcov
+*.gcda
+
+# ----------------------------------------------------------------------------
+# CMake
+# ----------------------------------------------------------------------------
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+_deps/
+CMakeUserPresets.json
+
+# ----------------------------------------------------------------------------
+# Qt / qmake
+# ----------------------------------------------------------------------------
+*.pro.user
+*.pro.user.*
+.qmake.stash
+.qmake.cache
+*.pro.user
+Makefile
+Makefile.*
+!Makefile.am
+!Makefile.in
+moc_*.cpp
+moc_*.h
+ui_*.h
+ui_*.cpp
+qrc_*.cpp
+qrc_*.h
+*.moc
+*.qmlc
+*.jsc
+*.rcc
+*.rc
+*.qml
+.qmlcache/
+.qmake/
+*.qbs
+!*.qbs.t
+*.pro.user
+qmlcache/
+*.autosave
+
+# ----------------------------------------------------------------------------
+# Datos de ejecución generados por la aplicación (persistencia JSON)
+# ----------------------------------------------------------------------------
+# Descomenta si no deseas versionar los archivos de datos que genera la app:
+# /data/
+# /datos/
+# *.runtime.json
+# /ventas.json
+# /productos.json
+# /usuarios.json
+
+# ----------------------------------------------------------------------------
+# IDEs y editores
+# ----------------------------------------------------------------------------
+*.swp
+*.swo
+*~
+.idea/
+nbproject/
+*.iml
+.clangd/
+compile_flags.txt
+.cache/
+
+# ----------------------------------------------------------------------------
+# Logs y archivos temporales
+# ----------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ----------------------------------------------------------------------------
+# Entornos virtuales y secretos
+# ----------------------------------------------------------------------------
+.env
+.env.*
+venv/
+.env/
+node_modules/
+*.user
+secrets.json
