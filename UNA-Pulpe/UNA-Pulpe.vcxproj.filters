@@ -43,9 +43,21 @@
     <ClCompile Include="Historial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorUsuarios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Historial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControladorUsuarios.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

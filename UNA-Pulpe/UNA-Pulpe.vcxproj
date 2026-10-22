@@ -102,6 +102,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ControladorUsuarios.cpp" />
+    <ClCompile Include="Usuario.cpp" />
     <QtRcc Include="UNAPulpe.qrc" />
     <QtUic Include="UNAPulpe.ui" />
     <QtMoc Include="UNAPulpe.h" />
@@ -110,7 +112,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ControladorUsuarios.h" />
     <ClInclude Include="Historial.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
