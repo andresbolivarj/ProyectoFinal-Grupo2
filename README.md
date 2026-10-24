@@ -2,10 +2,10 @@
 Aplicación de escritorio desarrollada en **C++** utilizando **Qt Widgets** para la administración integral de una pequeña pulpería.
 
 ## 👥 Integrantes del Equipo
-* Integrante 1 - [Moises] (enlace) - Módulo: Productos e inventario.
-* Integrante 2 - [Alison] (enlace) - Módulo: Ventas y cobro.
-* Integrante 3 - [andresbolivarj] (https://github.com/andresbolivarj) - Módulo: Comprobantes e historial.
-* Integrante 4 - [Adriel] (enlace) - Módulo: Usuarios y permisos.
+* Integrante 1 - [Moisés Mora] (https://github.com/mmora5852-crypto) - Módulo: Productos e inventario.
+* Integrante 2 - [Alison Gonzales] (https://github.com/alisongonzalezv) - Módulo: Ventas y cobro.
+* Integrante 3 - [Andrés Bolívar] (https://github.com/andresbolivarj) - Módulo: Comprobantes e historial.
+* Integrante 4 - [Adriel Villalobos] (https://github.com/adrielvillalobostoruno-coder) - Módulo: Usuarios y permisos.
 
 ---
 
@@ -17,7 +17,7 @@ Aplicación de escritorio desarrollada en **C++** utilizando **Qt Widgets** para
 ---
 
 ## ⚙️ Requisitos Previos
-Para compilar y ejecutar este proyecto en tu computadora, asegúrate de tener instalado:
+Para compilar y ejecutar este proyecto en su computadora, debe tener instalado:
 * **Visual Studio** (con soporte para C++).
 * **Qt Widgets** (versión compatible con el desarrollo del curso).
 
@@ -26,16 +26,16 @@ Para compilar y ejecutar este proyecto en tu computadora, asegúrate de tener in
 ## 🚀 Pasos para Compilar y Ejecutar
 
 1. **Clonar el repositorio:**
-   ```bash
+   
    git clone https://github.com/tu-usuario/tu-repositorio.git
-   ```
+   
 
 2. **Abrir el proyecto:**
-   Abre Visual Studio y selecciona la opción para abrir un proyecto o solución, o bien abre el archivo de proyecto de Qt (.pro o configuración de CMake según tu entorno).
+   Abra Visual Studio y seleccione la opción para abrir un proyecto o solución, o abra el archivo de proyecto de Qt (.pro o configuración de CMake según su entorno).
 
 3. **Compilar:**
-   * Configura la compilación en modo Debug o Release.
-   * Haz clic en Compilar (Build Solution) para generar los ejecutables y verificar que no existan errores de sintaxis.
+   * Configure la compilación en modo Debug o Release.
+   * Haga clic en Compilar (Build Solution) para generar los ejecutables y verificar que no existan errores de sintaxis.
 
 4. **Ejecutar:**
-   Presiona el botón de Iniciar depuración (Start Debugging / F5) en Visual Studio para lanzar la aplicación de escritorio.
+   Presione el botón de Iniciar depuración (Start Debugging / F5) en Visual Studio para lanzar la aplicación de escritorio.
