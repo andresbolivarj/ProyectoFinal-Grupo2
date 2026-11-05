@@ -40,25 +40,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Historial.cpp">
+    <ClCompile Include="VistaUsuarios.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Usuario.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ControladorUsuarios.cpp">
+    <ClCompile Include="GestorJSON.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Historial.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Usuario.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ControladorUsuarios.h">
+    <ClInclude Include="GestorJSON.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="VistaUsuarios.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

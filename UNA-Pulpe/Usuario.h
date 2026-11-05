@@ -1,5 +1,5 @@
-#ifndef USUARIO.H //Guardia de inclusion: Evita que el archivo se lea más de una vez.
-#define USUARIO.H
+#ifndef USUARIO_H //Evita que el archivo se lea más de una vez.
+#define USUARIO_H
 
 #include <QString.h>
 
@@ -11,7 +11,7 @@ protected: //se utiliza este tipo de modificador para que solo se puedan acceder
 	QString hashContrasena;
 	bool activo;
 
-public:
+public:   //constructor
 	Usuario(const QString& id, const QString& nombre, const QString& nombreUsuario,
 		const QString& hashContrasena, bool activo = true)
 		: id(id), nombre(nombre), nombreUsuario(nombreUsuario),
@@ -19,7 +19,7 @@ public:
 
 	
 	Usuario(const QString& id, const QString& clave)
-		: id(usuario), nombre(usuario), nombreUsuario(usuario),
+		: id(id), nombre(nombre), nombreUsuario(nombreUsuario),
 		hashContrasena(clave), activo(true) { } //esta parte sirve para crear un usuario o cuenta en el programa de forma rapida con solo dos datos (usuario y la clave)
 
 	virtual ~Usuario() = default; //Destructor: evita qque se quede basura en la memoria al borrar un usuario y al poner el = default se le dice al compilador que use la destruccion para mantener el comportamiento virtual.
@@ -28,7 +28,8 @@ public:
 	QString getNombre() const { return nombre; }
 	QString getNombreUsuario() const { return nombreUsuario; }  //Metodos get: sirven para leer datos del usuario desde afuera sin modificar nada.
 	QString getHashContrasena() const { return hashContrasena; }
-	bool isActivo() const { return activo:}
+	QString getClave() const { return hashContrasena; } //podria cambiar luego (se puso por JSON)
+	bool isActivo() const { return activo; }
 
 	void setClave(const QString& nuevaClave) { hashContrasena = nuevaClave; } //Metodo set: permite cambiar o actualizar la clave del usuario.
 
