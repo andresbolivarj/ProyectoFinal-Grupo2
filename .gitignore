@@ -45,3 +45,10 @@ $RECYCLE.BIN/
 *.user
 Makefile
 *.qrc.depends
+
+# ==========================================
+# Configuración local de CMake / Compilación
+# ==========================================
+CMakePresets.json
+CMakeUserPresets.json
+out/
